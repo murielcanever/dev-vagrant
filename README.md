@@ -6,6 +6,6 @@ $ vagrant up
 
 Vagrantfile set to the IP 192.168.33.10 \
 
-Commands for the Ansible \ 
-$ ansible-playbook -i vagrant_inventory create_user.yaml -vvv 
+Commands for the Ansible \
+$ ansible-playbook -i vagrant_inventory create_user.yaml -vvv \
 $ ssh -i ~/.ssh/id_rsa newvagrantuser@192.168.33.10
